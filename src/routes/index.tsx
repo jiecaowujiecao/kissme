@@ -151,6 +151,9 @@ function Landing() {
           rel="noopener"
           className="shine animate-pulse-glow relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full border-4 border-white px-10 py-4 text-base font-semibold text-white"
           style={{ background: "var(--gradient-button)" }}
+          onClick={() => {
+            (window as any).fbq?.("track", "Lead", { content_name: siteConfig.appName });
+          }}
         >
           <Download className="h-5 w-5" />
           <span className="relative z-10">{siteConfig.downloadLabel}</span>
