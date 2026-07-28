@@ -14,10 +14,10 @@ export const siteConfig = {
   tagline: "Donde los chats de medianoche se transforman en conexiones reales. Conoce gente atractiva cerca de ti, coquetea libremente y convierte cada match en una historia inolvidable.",
 
   /** 下载按钮文字 */
-  downloadLabel: "Download",
+  downloadLabel: "Download for Free",
 
   /** 下载链接（APK 或应用商店地址） */
-  downloadUrl: "https://your-cdn.com/kissme.apk",
+  downloadUrl: "https://your-cdn1.com/kissme.apk",
 
   /** 浏览器标签页标题 & 分享描述 */
   pageTitle: "KISSME — Download the App",
