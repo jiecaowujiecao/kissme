@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS idx_landing_images_position ON public.landing_images (position ASC);
