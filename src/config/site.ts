@@ -17,7 +17,7 @@ export const siteConfig = {
   downloadLabel: "Download for Free",
 
   /** 下载链接（APK 或应用商店地址） */
-  downloadUrl: " https://7b2d1kot0ig3.qvzxfj.cn/uyrPP6Fcb9es--8-1",
+  downloadUrl: " https://lovetogetherx.com/e0qjNXOZuH",
 
   /** 浏览器标签页标题 & 分享描述 */
   pageTitle: "KISSME — Download the App",
