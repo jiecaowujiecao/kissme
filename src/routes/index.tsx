@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Download } from "lucide-react";
 import { isVideoUrl } from "@/lib/media";
 import { siteConfig } from "@/config/site";
+import { AgeGate } from "@/components/AgeGate";
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -82,6 +83,7 @@ function Landing() {
 
   return (
     <main className="relative min-h-screen overflow-hidden bg-background">
+      <AgeGate />
       {/* ambient gradient */}
       <div
         className="pointer-events-none absolute inset-0 -z-10 opacity-60"
